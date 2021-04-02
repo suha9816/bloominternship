@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+   margin: 0px;
+  }
+  
+
+  nav {
+    overflow: hidden;
+    background-color: indigo;;
+    padding: 8px;
+ }
+ .links {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    float: left;
+    color:rgb(217, 219, 100);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-style: oblique;
+ }
+ nav .logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+ 
+ }
+ nav .links:hover {
+    background-color: rgb(16, 19, 1);
+ color: indigo;
+ font-family: 'Times New Roman', Times, serif;
+ }
+ nav .selected {
+    background-color: rgb(14, 14, 13);
+    color: rgb(217, 219, 104);
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .rightSection {
+    float: right;
+ }
+ @media screen and (max-width: 870px) {
+    nav .links {
+       float: none;
+       display: block;
+       text-align: left;
+       font-family: 'Times New Roman', Times, serif;
+    }
+    .rightSection {
+       float: none;
+    }
+ }
+ 
+ .cus-div {
+    width: 100%;
+    position: relative;
+ 
+ }
+ 
+ #skew1{
+ 
+   
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    z-index: 10;
+ 
+ }
+ 
+ .cus-div:after{
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    background: inherit;
+    z-index: -1;
+    bottom: 0;
+    content: '';
+   }
+  
+ #skew1::after{
+ transform-origin: left bottom;
+ transform: skew(3deg);
+ 
+ }
+ .content {
+    font-weight:bolder;
+    text-align: center;
+    padding: 300px 90px;
+    overflow: hidden;
+    display: block;
+    height: auto;
+    
+ 
+ }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(218, 216, 111);
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color:rgb(75, 0, 103);
+    color: rgb(216, 206, 112);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #080808;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  footer{
+    
+    background:rgb(12, 12, 11);
+    height: auto;
+    width: 100vw;
+    font-family: "open sans";
+    padding-top: 40px;
+    color: rgba(214, 207, 107, 0.904);
+
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+   
+
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 20px;
+
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+
+}
+
+.social li{
+    margin: 0 10px;
+
+
+}
+.social a{
+    text-decoration: none;
+    color: rgb(207, 23, 23);
+    
+}
+.social a i {
+    font-size: 1.9rem;
+    transition: color .4s ease;
+
+}
+.social a:hover i{
+    color: rgb(75, 0, 103);
+
+}
+.footer-bottom{
+    background:rgb(12, 12, 12);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+.footer-bottom p{
+    font-size: 16px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+
+
+}
