@@ -22,12 +22,12 @@ color: purple;
 
 }
 .header .logo{
-width: 50%;
-height: 73px;
-float: left;
-background: whitesmoke;
-
-}
+  width: 50%;
+  height: 73px;
+  float: left;
+  background: whitesmoke;
+  
+  }
     
 .logo img{
 border-radius: 50%;
@@ -247,6 +247,7 @@ li
   font-size: 1em;
   text-align:center;
   font-style:italic;
+  
 }
 .text4
 {

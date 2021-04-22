@@ -1,0 +1,31 @@
+body{
+   
+  
+    background: plum;
+
+   
+ 
+}
+
+  
+.con{
+    margin: 30px ;
+    width: 98%;
+    padding: 8px;
+ 
+ }
+ .text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.c-img{
+    float: left;
+    width: 900px;
+    height: 600px;
+   
+    border-radius: 8px;
+    border: solid purple;
+   
+
+}

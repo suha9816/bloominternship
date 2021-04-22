@@ -7,8 +7,92 @@ color:Purple
 body{
     margin: 0;
     padding:0;
-    background: rgb(211, 180, 218);
+    background: whitesmoke;
+    margin-left: 30px;
 }
+
+.cover{
+    background-color: whitesmoke;
+}
+.header-content{
+    overflow: hidden;
+}
+.header .logo{
+    width: 80%;
+    height: 60px;
+    float: left;
+  
+}
+.logo img{
+    border-radius: 50%;
+}
+.container{
+    width: 80%;
+    height:20px;
+    margin: auto;
+}
+.header{
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    
+}
+
+.s-header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.s-header .s-title{
+    font-size: 30px;
+    padding-top: 40px;  
+}
+.s-header .line{
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: rgba(75, 7, 75, 0.986);
+    margin:0 auto 60px auto;
+}
+.s-header h2{
+    color: rgb(75,0,130);
+}
+.header .nav{
+    width: 70%;
+    list-style: none;
+    float: right;
+    text-align: right;
+   
+}
+.header .nav li{
+    display:inline-block;
+}
+.header .nav li a{
+    color: rgb(75, 0, 130) ;
+    text-decoration: none;
+    padding: 26px 15px;
+    display: block;
+}
+.header .nav li a.active:after,
+.header .nav li a:after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color:rgb(75, 0, 130);
+    transition: width 0.5s;
+}
+.header .nav li a.active:after{width: 100%;}
+.header .nav li a:after{width: 0;}
+.header .nav li a:hover:after{width: 100%;}
+
+
+
+/*
+font-family:cairo \ comfortaa
+color:Purple
+*/
+
+
 .navbar{
     width:100%;
     height: 70px;
@@ -41,4 +125,234 @@ color: rgb(245, 238, 245);
 }
 .navbar ul li:hover{
     color: rgb(250, 6, 128);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.simg{
+    border:solid 2px pink;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+footer{
+    
+    background:pink;
+    height: auto;
+    width: 100vw;
+    font-family: "open sans";
+    padding-top: 40px;
+    color: whitesmoke;
+
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+   
+
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 20px;
+
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+
+}
+
+.social li{
+    margin: 0 10px;
+
+
+}
+.social a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+.social a i {
+    font-size: 1.9rem;
+    transition: color .4s ease;
+
+}
+.social a:hover i{
+    color: purple;
+
+}
+.footer-bottom{
+    background:pink;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+.footer-bottom p{
+    font-size: 16px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+
+
+}
+
+.main{
+    width: 90%;
+  
+    padding: 3rem;
+
+    margin-left: 30px;
+}
+.main-img{
+  
+  border-radius: 8px;
+  width: 100%;
+  height: 500px;
+  margin: right 40px;
+  object-fit: cover;
+}
+.team{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+
+.t
+{width: 1000px;
+   margin-left: 20px;
+
+}
+.t p{
+    margin-left: 70px;
+}
+.line{
+    width: 100%;
+    height: 5px;
+    background: pink;
+}
+.line p{
+    color: pink;
+}
+
+
+footer{
+    
+    background:pink;
+    height: auto;
+    width: 100vw;
+    font-family: "open sans";
+    padding-top: 40px;
+    color: whitesmoke;
+
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+   
+
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 20px;
+
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+
+}
+
+.social li{
+    margin: 0 10px;
+
+
+}
+.social a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+.social a i {
+    font-size: 1.9rem;
+    transition: color .4s ease;
+
+}
+.social a:hover i{
+    color: purple;
+
+}
+.footer-bottom{
+    background:pink;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+.footer-bottom p{
+    font-size: 16px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+
+
 }
