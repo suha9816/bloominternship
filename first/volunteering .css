@@ -1,0 +1,28 @@
+.volunteering{
+    margin: 0 0 ;
+    width: 98%;
+    height: 650px;
+    padding: 8px;
+    border-radius: darkgray;
+    border: 2px solid rgb(121, 78, 129) ;
+    color: darkgray border;
+ 
+ }
+ 
+ .v-img{
+     float: right;
+     margin-left: 10px;
+     width: 600px;
+     height: 650px;
+     padding: 0 10px  0 0;
+     
+ }
+    
+
+     
+ 
+ .text{
+     text-align: justify;
+     font-family: Verdana;
+    
+ }
