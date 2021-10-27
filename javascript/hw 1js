@@ -1,0 +1,11 @@
+
+
+ var rem = (nums) => {
+    
+      return nums/2;
+  }
+  
+ 
+  const nums = [2,5,9000,2839,897];
+  console.log(nums.map(rem))
+

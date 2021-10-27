@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p class="m">suha</p>
+        <p  class="m">suha</p><p  class="m">suha</p>
+        <button id="s">clickme</button>
+        <script>//it must write 
+        var c = document.querySelector(".m")//queryselectur run only the first tag just the first p will colored pink.
+        c.style.backgroundColor="pink"
+        var mybottun =document.querySelector("#s")
+        mybottun.addEventListener('click',myfunction)
+        function myfunction (){
+            alert("I am suha")//alert page apear when click on button
+        }
+        var addelemnttoptag=document.createElement("p")
+        c.appendChild(addelemnttoptag)//add line in specific tag like witch inside p tag 
+        addelemnttoptag.innerText ='WITCH'
+
+        var atag=document.createElement("p")
+        c.appendChild(atag)
+        atag.innerText ='old'
+</script>
+
+    </body>
+</html>

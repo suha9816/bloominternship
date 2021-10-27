@@ -1,19 +1,47 @@
-.volunteering{
+.volunteer{
     margin: 0 0 ;
-    width: 98%;
-    height: 650px;
+    margin-left: 30px;
+    width: 88%;
+    height: 500px;
     padding: 8px;
     border-radius: darkgray;
-    border: 2px solid rgb(121, 78, 129) ;
-    color: darkgray border;
+    border: 2px solid whitesmoke;
+    color: darkgray ;
+    background-color: whitesmoke ;
+    overflow-y: auto;
+
+}
  
- }
- 
+
+ .volunteering{
+    width: 100%;
+
+}
+.volunteering h1{
+    text-align: center;
+    font-size: 40px;
+    color: #250740;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 30px;
+}
+.volunteering h1::after{
+    content:"";
+    height: 5px;
+    width: 200px;
+    background-color:#523c7e ;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+
+}
  .v-img{
      float: right;
      margin-left: 10px;
-     width: 600px;
-     height: 650px;
+     margin-right: 300px;
+     margin-top: 8px;
+     width: 300px;
+     height: 250px;
      padding: 0 10px  0 0;
      
  }
@@ -22,7 +50,31 @@
      
  
  .text{
-     text-align: justify;
+     margin-top: 8px;
+     text-align: center;
      font-family: Verdana;
+    font-size: 20px;
+    
+
     
  }
+ .button a{ 
+     margin-top: 800px;
+     margin-left: 50px;
+    color:#fff;
+    background-color: #523c7e;
+    border: 1px solid #523c7e;
+    padding: 10px 35px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 22px;
+    text-transform: uppercase;
+    border-radius: 80px;
+
+
+
+}
+.button a:hover{
+    background-color: #fff;
+    color:#523c7e;
+}

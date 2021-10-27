@@ -235,7 +235,7 @@ footer{
 
 }
 .footer-bottom{
-    background:pink;
+    background:rgba(121, 78, 129, 0.712) ;
     width: 100vw;
     padding: 20px 0;
     text-align: center;

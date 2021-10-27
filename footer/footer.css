@@ -1,0 +1,90 @@
+/* For desktop: */
+
+.footer {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [footer] {
+    width: 100%;
+  }
+}
+
+footer{
+    
+    background:#250740c2 ;
+    height: auto;
+    width: 100vw;
+    font-family: "open sans";
+    padding-top: 40px;
+    color:darkgrey;
+    font-size: large;
+    
+    
+
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+   
+
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+
+}
+
+.social li{
+    margin: 0 10px;
+
+
+}
+.social a{
+    text-decoration: none;
+    color:darkgray;
+    
+}
+.social a i {
+    font-size: 1.9rem;
+    transition: color .4s ease;
+
+}
+.social a:hover i{
+    color:  #495057ef;
+
+}
+.footer-bottom{
+    background:rgba(121, 78, 129, 0.712) nk;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+.footer-bottom p{
+    font-size: 16px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    
+
+}
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+
+
+}
+
+
+  
+.footer-content ul  {
+    margin-right: 50px;
+}
